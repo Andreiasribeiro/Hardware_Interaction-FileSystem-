@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, Image, TextInput, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, Image, TextInput, TouchableOpacity, View, } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 
 
 export default function App() {
 
+  
   const [name, setName] = useState();
   //method to save data
   const save = async () => {
